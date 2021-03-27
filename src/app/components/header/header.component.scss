@@ -1,0 +1,38 @@
+%basic {
+  color: white;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+
+}
+
+
+:host(.gold) {
+  background: gold;
+  @extend %basic;
+}
+
+:host(.red) {
+    background: red;
+    @extend %basic;
+}
+
+
+ul {
+  background: inherit;
+  color: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 1.5rem;
+  font-weight: inherit;
+  margin-bottom:1.5rem;
+
+  // background:red;
+}
+
+li {
+  list-style: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
